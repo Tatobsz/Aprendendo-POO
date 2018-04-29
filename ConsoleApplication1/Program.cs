@@ -101,6 +101,9 @@ namespace ConsoleApplication1
                 Console.WriteLine("1 - Voltar ao menu\n0 - Sair");
                 opcao = Int32.Parse(Console.ReadLine());
             }
+
+            Console.WriteLine("Fazendo teste das alterações do git");
+            Console.ReadLine();
         }
     }
 }
